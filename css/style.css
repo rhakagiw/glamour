@@ -1,0 +1,115 @@
+/*Glamour Theme Created by R Web Designs LLC*/
+/*
+font-family: 'Oswald', sans-serif;
+font-family: 'Raleway', sans-serif;
+*/
+/* Colors used in Theme*/
+
+@import url('https://fonts.googleapis.com/css?family=Oswald:400,500,600,700|Raleway:200,300,400,500,600,700&display=swap');
+
+/* General styles start*/
+*{
+    margin:0;
+    padding:0;
+}
+
+html, body {
+    overflow-x: hidden
+}
+
+body {
+    overflow: hidden !important;
+    width: 100%;
+    height: 100%;
+    font-family: 'Raleway', sans-serif;
+}
+
+#banner{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.4),rgba(0, 0,0, 0.4)), url('../img/salon-1.jpg');
+    background-attachment:fixed;
+    background-size:cover;
+    background-position:center;
+
+}
+.max-viewport{
+    min-height:100vh;
+}
+  .logo{
+    width:45%;
+}
+a{
+  color:#fff;
+}
+.modal-title {
+  text-align: center;
+  width: 100%;
+}
+.modal-image-1{
+    width:100%;
+    overflow:hidden;
+  }
+
+  .modal-image-2{
+    width:100%;
+    overflow:hidden;
+  } 
+
+  .modal-content{
+    background-color:rgb(175,39,18);
+    color:#fff;
+  }
+.accent{
+    font-family: 'Oswald', sans-serif;
+    font-weight:700;
+    font-size:2.7rem;
+    letter-spacing:.03rem;
+    color:rgb(175,39,18);
+    text-shadow:
+    -0.5px -1px 0 #fff,
+     0.5px -1px 0 #fff,
+    -0.5px 1px 0 #fff,
+     0.5px 1px 0 #fff;   
+    }
+h2{
+    font-size:2rem;
+  }
+
+@media (min-width: 992px) {
+    .modal-dialog {
+      max-width:80%;
+    }
+
+  }
+  @media (max-width:576px) {
+    .accent{
+        font-size:1.7rem;
+    }
+    h2{
+        font-size:1.5rem;
+    }
+    .lead{
+        font-size:1rem;
+       }  
+
+     .modal-image-1{
+        width:100%;
+      }
+
+  }
+  .modal-footer,
+   .table thead th{
+       background-color:rgb(208,214,49);
+   }
+  .btn-outline-light{
+      background-color:rgb(208,214,49);
+      color:rgb(175,39,18);
+      width:8rem;
+  }
+
+  .btn-outline-light:hover{
+    background-color:rgb(175,39,18);
+    color:rgb(208,214,49);
+  }
+
+ 
+ 
